@@ -10,8 +10,8 @@ extension ContextExtension on BuildContext {
 
 extension NumberExtension on BuildContext {
   double get lowValue => dynamicHeight(0.01);
-  double get mediumValue => dynamicHeight(0.03);
-  double get highValue => dynamicHeight(0.05);
+  double get mediumValue => dynamicHeight(0.05);
+  double get highValue => dynamicHeight(0.1);
 }
 
 extension PaddingExtension on BuildContext {
