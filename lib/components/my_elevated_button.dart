@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app/constants/color_constants.dart';
-import 'package:todo_app/core/extension/context_extension.dart';
+import '../constants/color_constants.dart';
+import '../core/extension/context_extension.dart';
 
 class MyElevatedButton extends StatelessWidget {
   final Color color;
