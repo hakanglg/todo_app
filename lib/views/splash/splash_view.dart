@@ -8,7 +8,7 @@ import 'components/body.dart';
 
 class SplashView extends StatelessWidget {
   const SplashView({Key? key}) : super(key: key);
-
+  static String routeName = "/splash";
   @override
   Widget build(BuildContext context) {
     return Scaffold(body: Body());

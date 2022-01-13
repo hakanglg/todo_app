@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:todo_app/routes.dart';
 import 'constants/color_constants.dart';
 import 'theme.dart';
 import 'views/splash/splash_view.dart';
@@ -13,7 +14,9 @@ class MyApp extends StatelessWidget {
       title: 'Material App',
       debugShowCheckedModeBanner: false,
       theme: buildThemeData(context),
-      home: SplashView(),
+      // home: SplashView(),
+      routes: routes,
+      initialRoute: SplashView.routeName,
     );
   }
 }
